@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Felix</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="nav-bar">
+		<div class="nav-container">
+            <div>
+                <div class="logo">    
+                    <a href="index.html">
+                        <img src="Felix Bendig.png" alt="Coach Felix" Style="width:100px;height:50px;">
+                    </a>
+                    </div>
+                <div class="search-bar-container">
+                    <div class="search-container">
+                        <input type="search" placeholder="Sök..."/>
+                    </div>
+                </div>
+            </div>
+            <input type="checkbox" class="nav-toggle" id="nav-toggle">    
+            <nav id="menu">
+                <ul class="nav-menu-list">
+                    <li class="nav-menu-list-item"><a href="index.html" class="menu-link">Hem</a></li>
+                    <li class="nav-menu-list-item"><a href="training.html" class="menu-link">Personal training</a></li>
+                    <li class="nav-menu-list-item"><a href="mobility.html" class="menu-link">Mobility</a></li>
+                    <li class="nav-menu-list-item"><a href="aboutme.html" class="menu-link">About me</a></li>
+                    <li class="nav-menu-list-item"><a href="contact.html" class="menu-link">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="toggle-label"><span></span></label>
+    </header>
+    <input type="checkbox" id="toggle-menu">
+  
+    <section class="hero-section3">
+        <div class="hero-text3"> 
+            <h1 class="hero-title3">Contact me</h1>
+            <p class="hero-paragraph3"><bold>I can help you if you fill out the form. When you fill out a form i will contact you and we can go further with how you can reach your goals.</bold></p>
+                <form method="GET" action="bli medlem.html">
+                    <input id="Firstnamn" name="Förnamn" type="text" required placeholder="First name"> <br>
+                    <input id="lastname" name="Efternamn" type="text" required placeholder="Last name"> <br>
+                    <input name="Birth ID" type="Personnummer" required placeholder="Birth id (88xxxx-xxxx)" pattern="^([+]46)\s*(7[0236])\s*(\d{4})\s*(\d{3})$"> <br>
+                    <input id="Ort" name="Ort" type="text" required placeholder="City"> <br>
+                    <input name="phone" type="phone" required placeholder="Phone number (+4670...)" pattern="^([+]46)\s*(7[0236])\s*(\d{4})\s*(\d{3})$"> <br>
+                    <input name="email" name="email" required placeholder="Email" value="info@example.com" pattern=".+@globex.com"> <br>
+                    </select>
+                    <input type="submit" value="Send">
+                </form><br>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="footer-container">
+        <div class="footer-box">&copy; Lana Wasso 2020</div>
+        <div class="a">Location: Stockholm</div>
+        <div class="footer-box2"><a href="#" class="fa fa-instagram"></a><a href="#" class="fa fa-facebook"></a></div>
+    </footer>
+
+</body>
+</html>
